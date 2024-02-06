@@ -1,0 +1,26 @@
+Package: montyhall
+Title: Monty Hall Problem
+Version: 0.0.0.9000
+Authors@R: 
+    person("Paige", "Hart", , "kphart2@asu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package creates a game that demonstrates the Monty Hall 
+              problem. A contestant is presented with 3 doors, 1 with a car and 
+              2 with goats. The contestant chooses a door without knowing what 
+              is behind it. The host then opens a door with a goat behind it. 
+              The contestant is then given the choice to stay with their 
+              initial door or choose the remiaing unopened door. If the 
+              contestant's final door opens to reveal a car, they win. If the 
+              contestant's final door opens to reveal a goat, they lose. The 
+              montyhall package contains functions to run simulations of this 
+              game in order to determine if it is a better strategy to stay 
+              or to switch.
+Depends: 
+   dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    dplyr
